@@ -1,48 +1,56 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "jameshussey474",
+  name: "James Hussey",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "jameshussey474@gmail.com",
+  phone: "+1 508 921 0173",
+  address: "2668 Randolph Ave, Windsor OT",
   projects: [
     {
+      id:0,
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
       imgUrl: "/tmk.jpg",
     },
     {
+      id:1,
       title: "PlaceholderTech",
       link: "https://placeholdertech.in",
       imgUrl: "/placeholdertech.png",
     },
     {
+      id:2,
       title: "Portfolio",
-      link: "https://manuarora.in",
+      link: "https://jameshussey.in",
       imgUrl: "/portfolio.png",
     },
     {
+      id:3,
       title: "CovidRescue",
       link: "https://covidrescue.co.in",
       imgUrl: "/covidrescue.png",
     },
     {
+      id:4,
       title: "Algochurn",
       link: "https://algochurn.com",
       imgUrl: "/algochurn.png",
     },
     {
+      id:5,
       title: "Playground",
       link: "https://play.placeholdertech.in",
       imgUrl: "/playground.png",
     },
     {
+      id:6,
       title: "Feedmeback",
       link: "https://feedmeback.vercel.app",
       imgUrl: "/feedmeback.png",
     },
     {
+      id:7,
       title: "Devmedium",
       link: "https://devmedium.vercel.app",
       imgUrl: "/devmedium.png",
@@ -61,6 +69,7 @@ const userData = {
   },
   experience: [
     {
+      id:0,
       title: "Software Developer",
       company: "mroads",
       year: "2021",
@@ -68,6 +77,7 @@ const userData = {
       desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
     },
     {
+      id:1,
       title: "Founder and Developer",
       company: "TailwindMasterKit",
       year: "2021",
@@ -75,6 +85,7 @@ const userData = {
       desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
     },
     {
+      id:2,
       title: "Founder and Developer",
       company: "Algochurn",
       year: "2021",
@@ -82,36 +93,31 @@ const userData = {
       desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
     },
     {
+      id:3,
       title: "Internship",
-      company: "Intel Corporation",
+      company: "Wattpad",
       year: "2019",
       companyLink: "https://intel.com",
       desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
     },
     {
+      id:4,
       title: "Graduation",
-      company: "UPES, Dehradun.",
-      year: "2019",
+      company: "The University of Waterloo",
+      year: "2018",
       companyLink: "https://upes.co.in",
       desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
-    },
-    {
-      title: "High School",
-      company: "Delhi Public School, Jaipur.",
-      year: "2015",
-      companyLink: "https://upes.co.in",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
-    },
+    }
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    instagram: "https://instagram.com/",
+    twitter: "https://twitter.com/",
+    linkedin: "https://linkedin.com/in/",
+    github: "https://github.com/jameshussey700",
     facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
+    peerlist: "https://peerlist.io/",
   },
 };
 
