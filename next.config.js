@@ -1,1 +1,6 @@
-export const config = { runtime: 'edge' };
+module.exports = {
+  experimental: {
+    standalone: true,
+    runtime: "edge",
+  },
+};
