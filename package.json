@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "18.16.0"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "next": "latest",
