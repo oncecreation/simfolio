@@ -4,6 +4,7 @@ module.exports = {
         domains: ['avatars.githubusercontent.com'],
     },
     experimental: {
+        runtime:'edge',
         outputStandalone: true,
     },
 };
