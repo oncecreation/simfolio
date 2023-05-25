@@ -1,6 +1,9 @@
 module.exports = {
-  experimental: {
-    standalone: true,
-    runtime: "edge",
-  },
+    reactStrictMode: false,
+    images: {
+        domains: ['avatars.githubusercontent.com'],
+    },
+    experimental: {
+        outputStandalone: true,
+    },
 };

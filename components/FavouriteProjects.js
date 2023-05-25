@@ -41,7 +41,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tmk.jpg"
+                src="/BrainDB.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -61,7 +61,7 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/placeholdertech.png"
+                src="/Wcommerce.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
