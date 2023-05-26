@@ -1,10 +1,10 @@
 import React from "react";
-import ContainerBlock from "../components/ContainerBlock";
-import Experience from "../components/Experience";
+import ContainerBlock from "@components/ContainerBlock";
+import Experience from "@components/Experience";
 
 export default function experience() {
   return (
-    <ContainerBlock title="Experience - Manu Arora">
+    <ContainerBlock title="Experience - James Hussey">
       <Experience />
     </ContainerBlock>
   );

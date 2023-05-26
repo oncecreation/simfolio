@@ -5,10 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "firebase deploy"
+  },
+  "engines": {
+    "node": ">=16.15.1"
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "firebase-functions": "^4.4.0",
     "next": "latest",
     "next-themes": "latest",
     "react": "18.2.0",
