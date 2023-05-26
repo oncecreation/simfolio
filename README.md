@@ -7,10 +7,6 @@
 
 2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
 
-Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
-
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
-
 # Features
 
 - Responsive layout, works well on both Mobile and Desktop
@@ -20,29 +16,7 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 - Clear call to actions.
 
 # Pages
-
 I've kept the pages as simple as possible. Only the required sections are included with minimal content.
-
-## Landing
-
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
-
-## About
-
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
-
-## Projects
-
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
-
-## Experience
-
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
-
-## Contact
-
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
-
 # Tech Stack
 
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
@@ -70,7 +44,3 @@ Deployment can be done in 3 easy steps.
 # License
 
 This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
-
-# Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
