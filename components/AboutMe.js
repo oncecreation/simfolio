@@ -60,7 +60,7 @@ export default function AboutMe() {
 
             <div className="mt-4 ml-4">
               {userData.socialLinks.map((el, idex) => (
-                <div className="flex flex-row justify-start items-center ">
+                <div key={idex} className="flex flex-row justify-start items-center ">
                   <a
                     href={el.url}
                     className="flex flex-row items-center space-x-4 group"
@@ -92,6 +92,7 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               {userData.skills.map((el, index)=>(
                 <img
+                key={index}
                 src={`${iconUrl}/${el}/${el}.png`}
                 className="h-20 w-20 mx-4 my-4"
               />
