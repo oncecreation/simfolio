@@ -1,6 +1,6 @@
 const userData = {
-  githubUsername: "jameshussey474",
-  name: "James Hussey",
+  githubUsername: "jiangdong-tiger",
+  name: "James Yang",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
   email: "jameshussey474@gmail.com",

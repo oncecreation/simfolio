@@ -20,7 +20,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 
 # Live Demo
-[James Hussey's Portfolio](https://clean-portfolio-3a562.web.app)
+[James Yang's Portfolio](https://clean-portfolio-3a562.web.app)
 
 # Tech Stack
 

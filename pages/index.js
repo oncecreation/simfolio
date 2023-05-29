@@ -10,7 +10,7 @@ import repositories from '@constants/github';
 export default function Home() {
   return (
     <ContainerBlock
-      title="James Hussey - Developer, Writer, Creator"
+      title="James Yang - Developer, Writer, Creator"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
       <Hero />
