@@ -6,11 +6,10 @@ import LatestCode from "@components/LatestCode";
 import Hero from "@components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
-import repositories from '@constants/github';
-export default function Home() {
+export default function Home({repositories}) {
   return (
     <ContainerBlock
-      title="James Hussey - Developer, Writer, Creator"
+      title="James Yang - Full Stack Web Engineer, Blockchain Developer"
       description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
     >
       <Hero />
@@ -19,13 +18,13 @@ export default function Home() {
     </ContainerBlock>
   );
 }
-// export const getServerSideProps = async () => {
-//   let token = process.env.GITHUB_AUTH_TOKEN;
-//   const repositories = await getLatestRepos(userData, token);
-//   console.log(repositories);
-//   return {
-//     props: {
-//       repositories,
-//     },
-//   };
-// };
+export const getServerSideProps = async () => {
+  let token = process.env.GITHUB_AUTH_TOKEN;
+  const repositories = await getLatestRepos(userData, token);
+  // console.log(repositories);
+  return {
+    props: {
+      repositories,
+    },
+  };
+};
